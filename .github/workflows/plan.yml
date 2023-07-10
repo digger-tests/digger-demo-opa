@@ -24,7 +24,7 @@ jobs:
           policy-check-enabled: true
           digger-token: ${{ secrets.DIGGER_TOKEN }}
           digger-organisation: ${{ secrets.DIGGER_ORGANISATION }}
-          digger-hostname: https://cloud.uselemon.cloud
+          digger-hostname: https://cloud.uselemon.cloud/
           
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
